@@ -31,26 +31,26 @@ const About = () => {
           </div>
           
           <div className="lg:text-center">
-            <Card className="p-8 bg-gradient-to-br from-blue-50 to-indigo-50 border-0 shadow-lg">
+            <div className="glass-card p-8 rounded-2xl premium-shadow interactive-scale">
               <div className="grid grid-cols-2 gap-6">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">13+</div>
-                  <div className="text-sm text-gray-600">Years Experience</div>
+                <div className="text-center group">
+                  <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform duration-300">13+</div>
+                  <div className="text-sm text-gray-600 font-medium">Years Experience</div>
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">5+</div>
-                  <div className="text-sm text-gray-600">Companies Served</div>
+                <div className="text-center group">
+                  <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform duration-300">5+</div>
+                  <div className="text-sm text-gray-600 font-medium">Companies Served</div>
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">£200K</div>
-                  <div className="text-sm text-gray-600">Cost Savings</div>
+                <div className="text-center group">
+                  <div className="text-4xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform duration-300">£200K</div>
+                  <div className="text-sm text-gray-600 font-medium">Cost Savings</div>
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600 mb-2">8K+</div>
-                  <div className="text-sm text-gray-600">Work Streams</div>
+                <div className="text-center group">
+                  <div className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform duration-300">8K+</div>
+                  <div className="text-sm text-gray-600 font-medium">Work Streams</div>
                 </div>
               </div>
-            </Card>
+            </div>
           </div>
         </div>
       </div>
