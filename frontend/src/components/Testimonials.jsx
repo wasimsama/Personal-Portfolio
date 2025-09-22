@@ -15,31 +15,31 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {testimonialsData.map((testimonial, index) => (
-            <Card key={index} className="p-6 hover:shadow-lg transition-shadow duration-300 relative">
+            <div key={index} className="glass-card p-8 rounded-2xl premium-shadow interactive-scale relative group">
               <div className="flex items-center mb-4">
-                <Quote className="w-8 h-8 text-blue-200 absolute top-4 right-4" />
+                <Quote className="w-10 h-10 text-blue-300 absolute top-6 right-6 group-hover:text-blue-500 transition-colors duration-300" />
               </div>
               
-              <p className="text-gray-700 mb-6 leading-relaxed italic">
+              <p className="text-gray-700 mb-8 leading-relaxed italic text-lg">
                 "{testimonial.content}"
               </p>
               
               <div className="flex items-center">
-                <Avatar className="w-12 h-12 mr-4">
+                <Avatar className="w-16 h-16 mr-4 ring-2 ring-blue-100 group-hover:ring-blue-300 transition-all duration-300">
                   <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
-                  <AvatarFallback className="bg-blue-100 text-blue-600">
+                  <AvatarFallback className="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold">
                     {testimonial.name.split(' ').map(n => n[0]).join('')}
                   </AvatarFallback>
                 </Avatar>
                 <div>
-                  <div className="font-semibold text-gray-900">{testimonial.name}</div>
-                  <div className="text-sm text-gray-600">{testimonial.position}</div>
-                  <div className="text-sm text-gray-500">{testimonial.company}</div>
+                  <div className="font-bold text-gray-900 text-lg">{testimonial.name}</div>
+                  <div className="text-sm text-gray-600 font-medium">{testimonial.position}</div>
+                  <div className="text-sm text-blue-600 font-medium">{testimonial.company}</div>
                 </div>
               </div>
-            </Card>
+            </div>
           ))}
         </div>
         
