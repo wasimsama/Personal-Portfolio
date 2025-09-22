@@ -163,7 +163,7 @@ const Contact = () => {
                 Send Message
               </Button>
             </form>
-          </Card>
+          </div>
         </div>
       </div>
     </section>
