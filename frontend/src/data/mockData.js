@@ -162,25 +162,32 @@ export const projectsData = [
 
 export const testimonialsData = [
   {
-    name: "Sarah Johnson",
-    position: "Director of Operations",
-    company: "TechCorp Solutions",
-    content: "Wasim is an exceptional service delivery manager who consistently delivers results. His ability to manage complex projects while maintaining strong client relationships is remarkable. He transformed our service delivery process and significantly improved our customer satisfaction scores.",
-    avatar: "https://images.unsplash.com/photo-1494790108755-2616b4bafaf0?w=150&h=150&fit=crop&crop=face"
+    name: "Rudra Nair",
+    position: "Business Intelligence Expert | PMP® Certified",
+    company: "Former Direct Report",
+    content: "Got the opportunity to work under guidance of Wasim, he is a manager who is with the team at every point with practical approach towards work, timelines, expectation settings and being very approachable in professional and personal levels. He believes in personalized training of his mentees based on their strengths and weaknesses. I always remember one perfect phrase from him that a manager should be like a dam able to handle all the pressure on one side not letting it affect your team's performance or get the team into distress. It was a privilege to work with him.",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
   },
   {
-    name: "Michael Chen", 
-    position: "Senior Technical Manager",
-    company: "Global Systems Inc",
-    content: "Working with Wasim has been a pleasure. His technical expertise combined with strong leadership skills makes him invaluable to any organization. He successfully led our team through a major system transformation while keeping everyone motivated and focused.",
+    name: "Ravi Sharma", 
+    position: "Services and Telecommunications Professional",
+    company: "Former Manager at BT",
+    content: "Wasim is an asset to have in a team. He brings experience from his previous engagements to think 'new', very intuitive and focused on solutions. I have worked with him on multiple projects, and he has always been part of the solution. Great with numbers and analyzing the root cause to address operational issues. The approach to think ahead and identify risks has helped the team multiple times.",
     avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
   },
   {
-    name: "Emma Thompson",
-    position: "Project Director", 
-    company: "InnovateNow Ltd",
-    content: "Wasim's strategic thinking and execution capabilities are outstanding. He has a unique ability to see the big picture while managing the smallest details. His contribution to our cost optimization project resulted in substantial savings and improved efficiency.",
-    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    name: "Robin Vaid",
+    position: "Digital | Strategy | Transformation", 
+    company: "Former Manager at BT",
+    content: "It's rare that you come across standout talent like Wasim. I had the pleasure of working with Wasim for years and collaborating on several projects and generating insights to enhance operational grip. Wasim's ability to juggle multiple projects was unlike any I've seen before and made a dramatic difference in the outcome. No matter how tense a situation is, Wasim made sure everyone left with a smile and solution. Wasim earns my highest recommendation.",
+    avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    name: "Gaurav Chaudhary",
+    position: "Senior Manager - Cloud Security",
+    company: "Boston Consulting Group (BCG)",
+    content: "Wasim is an excellent manager. I had a pleasure working for 3.5 years with him, and he leads by example. He always kept the team morale up as he is very friendly. His ability to work through the crisis and develop new ways to achieve the targets were always inspiring.",
+    avatar: "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?w=150&h=150&fit=crop&crop=face"
   }
 ];
 
