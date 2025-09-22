@@ -15,25 +15,28 @@ const Skills = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillsData.categories.map((category, categoryIndex) => (
-            <Card key={categoryIndex} className="p-6 hover:shadow-lg transition-shadow duration-300">
-              <h3 className="text-xl font-semibold text-gray-900 mb-6">{category.name}</h3>
-              <div className="space-y-4">
+            <div key={categoryIndex} className="glass-card p-6 rounded-2xl premium-shadow interactive-scale group">
+              <h3 className="text-xl font-semibold text-gray-900 mb-6 relative">
+                {category.name}
+                <div className="absolute -bottom-2 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-500"></div>
+              </h3>
+              <div className="space-y-5">
                 {category.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex}>
-                    <div className="flex justify-between items-center mb-2">
-                      <span className="text-sm font-medium text-gray-700">{skill.name}</span>
-                      <span className="text-sm text-gray-500">{skill.level}%</span>
+                  <div key={skillIndex} className="group/skill">
+                    <div className="flex justify-between items-center mb-3">
+                      <span className="text-sm font-medium text-gray-700 group-hover/skill:text-gray-900 transition-colors">{skill.name}</span>
+                      <span className="text-sm font-semibold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">{skill.level}%</span>
                     </div>
-                    <div className="w-full bg-gray-200 rounded-full h-2">
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden">
                       <div 
-                        className="bg-blue-600 h-2 rounded-full transition-all duration-1000 ease-out"
+                        className="h-full rounded-full transition-all duration-1000 ease-out bg-gradient-to-r from-blue-500 to-purple-500 group-hover/skill:from-blue-600 group-hover/skill:to-purple-600"
                         style={{ width: `${skill.level}%` }}
                       ></div>
                     </div>
                   </div>
                 ))}
               </div>
-            </Card>
+            </div>
           ))}
         </div>
       </div>
