@@ -4,9 +4,8 @@ export const personalInfo = {
   name: "Wasim Sama",
   title: "Service Delivery Manager",
   location: "South Delhi, Delhi, India",
-  email: "wasim.sama@example.com", // Placeholder - will be updated with real email
-  linkedin: "https://www.linkedin.com/in/wasim-sama/",
-  phone: "+91-XXXXX-XXXXX" // Placeholder
+  email: "wasim.sama@gmail.com",
+  linkedin: "https://www.linkedin.com/in/wasim-sama/"
 };
 
 export const aboutData = {
