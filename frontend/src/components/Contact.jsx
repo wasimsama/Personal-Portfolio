@@ -3,7 +3,7 @@ import { Card } from './ui/card';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
-import { Mail, Phone, MapPin, Linkedin, Send } from 'lucide-react';
+import { Mail, MapPin, Linkedin, Send } from 'lucide-react';
 import { contactData } from '../data/mockData';
 import { useToast } from '../hooks/use-toast';
 
