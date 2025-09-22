@@ -23,9 +23,11 @@ const Projects = () => {
 
         <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
           {projectsData.map((project, index) => (
-            <Card key={index} className="p-6 hover:shadow-xl transition-all duration-300 group">
-              <div className="flex items-center mb-4">
-                <div className="p-3 bg-blue-100 rounded-lg mr-4 group-hover:bg-blue-200 transition-colors duration-300">
+            <div key={index} className="glass-card p-8 rounded-2xl premium-shadow interactive-scale group relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-500"></div>
+              
+              <div className="flex items-center mb-6 relative z-10">
+                <div className="p-4 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-xl mr-4 group-hover:scale-110 transition-transform duration-300">
                   {getProjectIcon(index)}
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 leading-tight">{project.title}</h3>
