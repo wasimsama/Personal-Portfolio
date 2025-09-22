@@ -44,9 +44,11 @@ const Testimonials = () => {
         </div>
         
         <div className="text-center mt-12">
-          <p className="text-gray-600 bg-blue-50 inline-block px-6 py-3 rounded-lg">
-            <strong>Note:</strong> These are placeholder testimonials. Real testimonials will be extracted from your LinkedIn profile.
-          </p>
+          <div className="glass-card px-6 py-4 rounded-xl inline-block">
+            <p className="text-gray-700 font-medium">
+              ⭐ <strong>Real testimonials</strong> from colleagues and managers on LinkedIn
+            </p>
+          </div>
         </div>
       </div>
     </section>
