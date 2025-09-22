@@ -192,8 +192,7 @@ export const testimonialsData = [
 ];
 
 export const contactData = {
-  email: "wasim.sama@example.com", // Placeholder
-  phone: "+91-XXXXX-XXXXX", // Placeholder  
+  email: "wasim.sama@gmail.com",
   linkedin: "https://www.linkedin.com/in/wasim-sama/",
   location: "South Delhi, Delhi, India",
   message: "I'm always interested in discussing new opportunities, collaborations, or sharing insights about service delivery and technical leadership. Feel free to reach out!"
