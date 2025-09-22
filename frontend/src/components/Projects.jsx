@@ -64,7 +64,7 @@ const Projects = () => {
                   <span className="font-medium text-sm">Impact: {project.impact}</span>
                 </div>
               </div>
-            </Card>
+            </div>
           ))}
         </div>
       </div>
